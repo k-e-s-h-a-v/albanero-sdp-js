@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Adding data to table
+        </title>
+    </head>
+    <body bgcolor="black">
+        <h1 style="color: azure;" id="ass">Dynamic Table Filling</h1>
+        <input type="text" placeholder="Name" id="name"/>
+        <input type="number" placeholder="Age" id="age" />
+        <button onclick="addData()">Add Data</button>
+
+        <table border="1" style="margin:30px;color: azure;">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody id="data">
+
+            </tbody>
+
+        </table>
+    </body>
+    <script src="./Table.js"></script>
+</html>
