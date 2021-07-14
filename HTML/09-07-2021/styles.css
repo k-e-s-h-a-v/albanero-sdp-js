@@ -1,0 +1,16 @@
+body {
+    background-color: powderblue;
+    /* color: white; */
+  }
+  h1 {
+    color: blue;
+    border: 2px solid rgb(179, 84, 6);
+  }
+  p {
+    color: red;
+    padding: 30px;
+    margin: 50px;
+  }
+
+/* The CSS padding property defines a padding (space) between the text and the border.
+The CSS margin property defines a margin (space) outside the border. */
