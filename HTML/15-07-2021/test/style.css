@@ -1,0 +1,43 @@
+body {
+  font-family: Snell Roundhand, cursive;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 100px);
+  background-color: rgb(47, 25, 250);
+  gap: 10px;
+  grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "aside content content"
+    "aside section section"
+    "footer footer footer";
+  height: 100%;
+  padding: 20px;
+}
+.container > div {
+  background-color: green;
+  font-size: 30px;
+  border: 2px solid red;
+  border-radius: 10px;
+  text-align: center;
+}
+#one {
+  grid-area: header;
+}
+#two {
+  grid-area: nav;
+}
+#three {
+  grid-area: aside;
+}
+#four {
+  grid-area: content;
+}
+#five {
+  grid-area: section;
+}
+#six {
+  grid-area: footer;
+}
