@@ -1,0 +1,90 @@
+body{
+    font-family: Snell Roundhand, cursive;
+    margin: 0;
+}
+
+h1{
+    font-family:'Times New Roman', Times, serif ;
+}
+
+* {
+box-sizing: border-box;
+}
+
+.header {
+    padding: 5px;
+    text-align: center;
+    /* background: #2dbc1a; */
+    color: rgb(51, 0, 0);
+    background-image: url(R.png);
+    background-size: 40% 100%;
+    background-color: rgb(255, 94, 0);
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.nav {
+    display: flex;
+    background-color: #003955;
+}
+
+.nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side {
+    display: flex;
+    flex-direction: column;
+    flex: 30%;
+    background-color: #04c1e2;
+    padding: 20px;
+    position: relative;
+}
+
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+}
+
+.img {
+    background-color: rgb(68, 124, 4);
+    width: 100%;
+    padding: 20px;
+}
+
+.imga {
+    background-image: url(OIP.jpg);
+    background-color: rgb(255, 136, 255);
+    /* width: 100%; */
+    /* padding: 20px; */
+}
+
+.footer {
+    display: flex;
+    justify-content:space-between;
+    background: #020c00;
+    color: rgb(255, 217, 4);
+}
+
+.inside {
+    padding: 10px 20px;
+}
+
+.big {
+    font-size: 30px;
+}
